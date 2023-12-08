@@ -1,0 +1,30 @@
+:root{
+    --body-font: 'Varela Round', sans-serif;;
+    --head-font: 'Shrikhand', serif;
+}
+
+body{
+    font-family: var(--body-font);
+}
+
+.container{
+    height: 95vh;
+}
+.qoute h1{
+    font-family: var(--head-font);
+    font-size: 4rem;
+    margin: 50px;
+}
+p{
+    font-size: 1.5rem;
+    margin: 50px;
+}
+.qoute button{
+    padding: 30px 45px;
+    transition: all 0.2s;
+}
+.qoute button:hover{
+    color: #000;
+    background-color: #fff;
+    border: #000 solid 1px;
+}
